@@ -1,0 +1,86 @@
+header {
+    width: 100vw;
+    height: 10vh;
+}
+
+nav {
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-direction: column;
+
+    h1 {
+        padding-bottom: 10px;
+        font-size: 40px;
+        font-family: 'Lucida Sans';
+    }
+
+    .dp1 {
+        position: absolute;
+
+        ul {
+            li {
+                text-align: left;
+                ;
+            }
+
+            .li0 {
+                padding-bottom: 10px;
+            }
+
+            .li1 {
+                font-weight: bold;
+            }
+
+            .li2 {
+                color: red;
+            }
+        }
+    }
+
+    .df1 {
+        width: 400px;
+        height: 100px;
+        padding: 5px 600px;
+
+        .tit1 {
+            padding-left: 50px;
+        }
+
+        li {
+            display: inline;
+        }
+
+        p {
+            display: inline;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .cgl {
+            color: rgb(216, 216, 216);
+        }
+
+        .lin {
+            font-weight: bold;
+        }
+    }
+
+    .secd {
+        height: 40px;
+    }
+
+    .img1 {
+        object-fit: cover;
+    }
+
+    .lib {
+        display: inline;
+        font-size: small;
+    }
+}
