@@ -195,4 +195,24 @@ main {
 
 .contacto p {
   margin-top: 10px;
+}
+
+footer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.foot ul {
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.foot h4 {
+  padding-bottom: 20px;
 }/*# sourceMappingURL=index.css.map */
