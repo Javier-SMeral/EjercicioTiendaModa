@@ -27,7 +27,7 @@ h1 {
 }
 
 .dp1 {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   margin-left: 10px;
